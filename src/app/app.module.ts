@@ -10,7 +10,7 @@ import {
   MatButtonModule,
   MatCardModule,
   MatIconModule,
-  MatListModule,
+  MatListModule, MatMenuModule,
   MatTabsModule,
   MatToolbarModule,
   MatTreeModule
@@ -63,6 +63,7 @@ import { environment } from '../environments/environment';
     MatTabsModule,
     MatListModule,
     MatCardModule,
+    MatMenuModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],

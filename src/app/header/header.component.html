@@ -4,6 +4,11 @@
     <span class="header-spacer"></span>
     <a routerLink="/"><span class="title">Poems</span></a>
     <span class="header-spacer"></span>
-    <a href="http://www.blog.deepakshankar.com"><span class="title blog"> Blogs!</span></a>
+    <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+      <i class="fas fa-bars fa-2x"></i>
+    </button>
+    <mat-menu #menu="matMenu">
+      <app-list></app-list>
+    </mat-menu>
   </mat-toolbar-row>
 </mat-toolbar>
