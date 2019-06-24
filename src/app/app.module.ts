@@ -29,6 +29,8 @@ import { LittleBoyComponent } from './body/little-boy/little-boy.component';
 import { TheRagingConchComponent } from './body/the-raging-conch/the-raging-conch.component';
 import { LifeWillGoOnComponent } from './body/life-will-go-on/life-will-go-on.component';
 import { StayAwakeWithMeComponent } from './body/stay-awake-with-me/stay-awake-with-me.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -60,7 +62,8 @@ import { StayAwakeWithMeComponent } from './body/stay-awake-with-me/stay-awake-w
     MatButtonModule,
     MatTabsModule,
     MatListModule,
-    MatCardModule
+    MatCardModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],
   bootstrap: [AppComponent]
