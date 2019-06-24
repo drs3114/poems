@@ -11,9 +11,14 @@
 
 .example-card {
   max-width: 350px;
+  color: #3b5998;
 }
 
 blockquote {
   text-align: center;
   color: #3b5998;
+}
+
+.bg {
+  background-color: #E8EAF6;
 }
