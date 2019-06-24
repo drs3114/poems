@@ -1,0 +1,13 @@
+.align {
+  padding: 2% 2% 1% 2%;
+}
+
+.bg {
+  background-color: #ffffff;
+}
+
+.box {
+  padding: 1%;
+  background-color: #E8EAF6;
+  /*ackground: linear-gradient(#3F51B5, #FFD740);*/
+}
