@@ -1,0 +1,15 @@
+.share-button-row button,
+.share-button-row a {
+  margin-right: 8px;
+  margin-left: 160px;
+  color: #3b5998;
+  background-color: #E8EAF6;
+}
+
+#share {
+  top: auto !important;
+  right: 20px !important;
+  bottom: 10px !important;
+  left: auto !important;
+  position: fixed !important;
+}

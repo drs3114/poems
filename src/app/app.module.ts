@@ -8,7 +8,7 @@ import {FooterComponent} from './footer/footer.component';
 import {BodyComponent} from './body/body.component';
 import {
   MatButtonModule,
-  MatCardModule,
+  MatCardModule, MatDividerModule,
   MatIconModule,
   MatListModule, MatMenuModule,
   MatTabsModule,
@@ -31,6 +31,7 @@ import { LifeWillGoOnComponent } from './body/life-will-go-on/life-will-go-on.co
 import { StayAwakeWithMeComponent } from './body/stay-awake-with-me/stay-awake-with-me.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { ShareComponent } from './body/share/share.component';
 
 @NgModule({
   declarations: [
@@ -50,7 +51,8 @@ import { environment } from '../environments/environment';
     LittleBoyComponent,
     TheRagingConchComponent,
     LifeWillGoOnComponent,
-    StayAwakeWithMeComponent
+    StayAwakeWithMeComponent,
+    ShareComponent
   ],
   imports: [
     BrowserAnimationsModule,
@@ -64,6 +66,7 @@ import { environment } from '../environments/environment';
     MatListModule,
     MatCardModule,
     MatMenuModule,
+    MatDividerModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],

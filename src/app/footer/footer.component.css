@@ -4,7 +4,7 @@ mat-toolbar {
 }
 
 .footer-spacer {
-  flex: 1 1 auto;
+  flex: 0.5 0.5 auto;
 }
 
 .copyright {
