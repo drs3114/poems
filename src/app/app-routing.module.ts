@@ -12,6 +12,7 @@ import {LittleBoyComponent} from './body/little-boy/little-boy.component';
 import {TheRagingConchComponent} from './body/the-raging-conch/the-raging-conch.component';
 import {LifeWillGoOnComponent} from './body/life-will-go-on/life-will-go-on.component';
 import {StayAwakeWithMeComponent} from './body/stay-awake-with-me/stay-awake-with-me.component';
+import {SilenceComponent} from './body/silence/silence.component';
 
 const paths: Routes = [
   {path: '', redirectTo: '/view', pathMatch: 'full'},
@@ -26,6 +27,7 @@ const paths: Routes = [
   {path: 'the-raging-conch', component: TheRagingConchComponent},
   {path: 'life-will-go-on', component: LifeWillGoOnComponent},
   {path: 'stay-awake-with-me', component: StayAwakeWithMeComponent},
+  {path: 'silence', component: SilenceComponent},
 ];
 
 @NgModule({

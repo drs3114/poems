@@ -32,6 +32,7 @@ import { StayAwakeWithMeComponent } from './body/stay-awake-with-me/stay-awake-w
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { ShareComponent } from './body/share/share.component';
+import { SilenceComponent } from './body/silence/silence.component';
 
 @NgModule({
   declarations: [
@@ -52,7 +53,8 @@ import { ShareComponent } from './body/share/share.component';
     TheRagingConchComponent,
     LifeWillGoOnComponent,
     StayAwakeWithMeComponent,
-    ShareComponent
+    ShareComponent,
+    SilenceComponent
   ],
   imports: [
     BrowserAnimationsModule,
