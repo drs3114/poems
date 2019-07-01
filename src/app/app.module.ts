@@ -33,6 +33,7 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { ShareComponent } from './body/share/share.component';
 import { SilenceComponent } from './body/silence/silence.component';
+import { IAmComingHomeComponent } from './body/i-am-coming-home/i-am-coming-home.component';
 
 @NgModule({
   declarations: [
@@ -54,7 +55,8 @@ import { SilenceComponent } from './body/silence/silence.component';
     LifeWillGoOnComponent,
     StayAwakeWithMeComponent,
     ShareComponent,
-    SilenceComponent
+    SilenceComponent,
+    IAmComingHomeComponent
   ],
   imports: [
     BrowserAnimationsModule,
