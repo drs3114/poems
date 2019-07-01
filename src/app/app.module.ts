@@ -34,6 +34,7 @@ import { environment } from '../environments/environment';
 import { ShareComponent } from './body/share/share.component';
 import { SilenceComponent } from './body/silence/silence.component';
 import { IAmComingHomeComponent } from './body/i-am-coming-home/i-am-coming-home.component';
+import { UnknownAndUntoldComponent } from './body/unknown-and-untold/unknown-and-untold.component';
 
 @NgModule({
   declarations: [
@@ -56,7 +57,8 @@ import { IAmComingHomeComponent } from './body/i-am-coming-home/i-am-coming-home
     StayAwakeWithMeComponent,
     ShareComponent,
     SilenceComponent,
-    IAmComingHomeComponent
+    IAmComingHomeComponent,
+    UnknownAndUntoldComponent
   ],
   imports: [
     BrowserAnimationsModule,
