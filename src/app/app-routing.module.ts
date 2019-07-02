@@ -15,6 +15,7 @@ import {StayAwakeWithMeComponent} from './body/stay-awake-with-me/stay-awake-wit
 import {SilenceComponent} from './body/silence/silence.component';
 import {IAmComingHomeComponent} from './body/i-am-coming-home/i-am-coming-home.component';
 import {UnknownAndUntoldComponent} from './body/unknown-and-untold/unknown-and-untold.component';
+import {NewHopeComponent} from './body/new-hope/new-hope.component';
 
 const paths: Routes = [
   {path: '', redirectTo: '/view', pathMatch: 'full'},
@@ -31,7 +32,8 @@ const paths: Routes = [
   {path: 'stay-awake-with-me', component: StayAwakeWithMeComponent},
   {path: 'silence', component: SilenceComponent},
   {path: 'i-am-coming-home', component: IAmComingHomeComponent},
-  {path: 'unknown-and-untold', component: UnknownAndUntoldComponent}
+  {path: 'unknown-and-untold', component: UnknownAndUntoldComponent},
+  {path: 'new-hope', component: NewHopeComponent}
 ];
 
 @NgModule({

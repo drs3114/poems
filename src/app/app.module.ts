@@ -35,6 +35,7 @@ import { ShareComponent } from './body/share/share.component';
 import { SilenceComponent } from './body/silence/silence.component';
 import { IAmComingHomeComponent } from './body/i-am-coming-home/i-am-coming-home.component';
 import { UnknownAndUntoldComponent } from './body/unknown-and-untold/unknown-and-untold.component';
+import { NewHopeComponent } from './body/new-hope/new-hope.component';
 
 @NgModule({
   declarations: [
@@ -58,7 +59,8 @@ import { UnknownAndUntoldComponent } from './body/unknown-and-untold/unknown-and
     ShareComponent,
     SilenceComponent,
     IAmComingHomeComponent,
-    UnknownAndUntoldComponent
+    UnknownAndUntoldComponent,
+    NewHopeComponent
   ],
   imports: [
     BrowserAnimationsModule,
