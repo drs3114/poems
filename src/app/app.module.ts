@@ -36,6 +36,7 @@ import { SilenceComponent } from './body/silence/silence.component';
 import { IAmComingHomeComponent } from './body/i-am-coming-home/i-am-coming-home.component';
 import { UnknownAndUntoldComponent } from './body/unknown-and-untold/unknown-and-untold.component';
 import { NewHopeComponent } from './body/new-hope/new-hope.component';
+import { WhereAreYouComponent } from './body/where-are-you/where-are-you.component';
 
 @NgModule({
   declarations: [
@@ -60,7 +61,8 @@ import { NewHopeComponent } from './body/new-hope/new-hope.component';
     SilenceComponent,
     IAmComingHomeComponent,
     UnknownAndUntoldComponent,
-    NewHopeComponent
+    NewHopeComponent,
+    WhereAreYouComponent
   ],
   imports: [
     BrowserAnimationsModule,

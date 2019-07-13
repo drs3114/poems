@@ -16,6 +16,7 @@ import {SilenceComponent} from './body/silence/silence.component';
 import {IAmComingHomeComponent} from './body/i-am-coming-home/i-am-coming-home.component';
 import {UnknownAndUntoldComponent} from './body/unknown-and-untold/unknown-and-untold.component';
 import {NewHopeComponent} from './body/new-hope/new-hope.component';
+import {WhereAreYouComponent} from './body/where-are-you/where-are-you.component';
 
 const paths: Routes = [
   {path: '', redirectTo: '/view', pathMatch: 'full'},
@@ -33,7 +34,8 @@ const paths: Routes = [
   {path: 'silence', component: SilenceComponent},
   {path: 'i-am-coming-home', component: IAmComingHomeComponent},
   {path: 'unknown-and-untold', component: UnknownAndUntoldComponent},
-  {path: 'new-hope', component: NewHopeComponent}
+  {path: 'new-hope', component: NewHopeComponent},
+  {path: 'where-are-you', component: WhereAreYouComponent}
 ];
 
 @NgModule({
