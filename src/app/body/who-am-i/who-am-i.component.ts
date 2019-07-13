@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WhoAmIComponent implements OnInit {
 
+  disqus_id:string = "who-am-i";
   constructor() { }
 
   ngOnInit() {

@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./should-i.component.css']
 })
 export class ShouldIComponent implements OnInit {
-
+  disqus_id:string = "should-i";
   constructor() { }
 
   ngOnInit() {

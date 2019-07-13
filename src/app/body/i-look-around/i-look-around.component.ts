@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./i-look-around.component.css']
 })
 export class ILookAroundComponent implements OnInit {
-
+  disqus_id:string = "i-look-around";
   constructor() { }
 
   ngOnInit() {

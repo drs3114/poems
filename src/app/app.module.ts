@@ -37,6 +37,7 @@ import { IAmComingHomeComponent } from './body/i-am-coming-home/i-am-coming-home
 import { UnknownAndUntoldComponent } from './body/unknown-and-untold/unknown-and-untold.component';
 import { NewHopeComponent } from './body/new-hope/new-hope.component';
 import { WhereAreYouComponent } from './body/where-are-you/where-are-you.component';
+import {DisqusModule} from 'ngx-disqus';
 
 @NgModule({
   declarations: [
@@ -77,7 +78,8 @@ import { WhereAreYouComponent } from './body/where-are-you/where-are-you.compone
     MatCardModule,
     MatMenuModule,
     MatDividerModule,
-    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
+    DisqusModule.forRoot("poems-deepakshankar-com")
   ],
   providers: [],
   bootstrap: [AppComponent]

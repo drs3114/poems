@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./life-will-go-on.component.css']
 })
 export class LifeWillGoOnComponent implements OnInit {
-
+  disqus_id:string = "life-will-go-on";
   constructor() { }
 
   ngOnInit() {

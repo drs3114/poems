@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./oh-brave-soldier.component.css']
 })
 export class OhBraveSoldierComponent implements OnInit {
-
+  disqus_id:string = "oh-brave-soldier";
   constructor() { }
 
   ngOnInit() {

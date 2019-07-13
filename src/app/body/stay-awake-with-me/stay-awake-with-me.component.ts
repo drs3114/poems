@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./stay-awake-with-me.component.css']
 })
 export class StayAwakeWithMeComponent implements OnInit {
-
+  disqus_id:string = "stay-awake-with-me";
   constructor() { }
 
   ngOnInit() {

@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./little-boy.component.css']
 })
 export class LittleBoyComponent implements OnInit {
-
+  disqus_id:string = "little-boy";
   constructor() { }
 
   ngOnInit() {

@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./where-are-you.component.css']
 })
 export class WhereAreYouComponent implements OnInit {
-
+  disqus_id:string = "where-are-you";
   constructor() { }
 
   ngOnInit() {

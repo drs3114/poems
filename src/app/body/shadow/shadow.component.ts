@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./shadow.component.css']
 })
 export class ShadowComponent implements OnInit {
-
+  disqus_id:string = "shadow";
   constructor() { }
 
   ngOnInit() {

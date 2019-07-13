@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./silence.component.css']
 })
 export class SilenceComponent implements OnInit {
-
+  disqus_id:string = "silence";
   constructor() { }
 
   ngOnInit() {
