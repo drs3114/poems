@@ -38,6 +38,7 @@ import { UnknownAndUntoldComponent } from './body/unknown-and-untold/unknown-and
 import { NewHopeComponent } from './body/new-hope/new-hope.component';
 import { WhereAreYouComponent } from './body/where-are-you/where-are-you.component';
 import {DisqusModule} from 'ngx-disqus';
+import { IVeLostMyVoiceComponent } from './body/i-ve-lost-my-voice/i-ve-lost-my-voice.component';
 
 @NgModule({
   declarations: [
@@ -63,7 +64,8 @@ import {DisqusModule} from 'ngx-disqus';
     IAmComingHomeComponent,
     UnknownAndUntoldComponent,
     NewHopeComponent,
-    WhereAreYouComponent
+    WhereAreYouComponent,
+    IVeLostMyVoiceComponent
   ],
   imports: [
     BrowserAnimationsModule,
