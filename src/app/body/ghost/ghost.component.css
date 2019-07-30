@@ -1,0 +1,22 @@
+.box {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.poem {
+  font-family: 'Dancing Script';
+  font-size: x-large;
+  color: #3b5998;
+  text-align: center;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.poem-title {
+  color: #3b5998;
+  font-family: 'Dancing Script', cursive;
+  font-size: xx-large;
+}
+

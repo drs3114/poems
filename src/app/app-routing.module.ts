@@ -18,6 +18,7 @@ import {UnknownAndUntoldComponent} from './body/unknown-and-untold/unknown-and-u
 import {NewHopeComponent} from './body/new-hope/new-hope.component';
 import {WhereAreYouComponent} from './body/where-are-you/where-are-you.component';
 import {IVeLostMyVoiceComponent} from './body/i-ve-lost-my-voice/i-ve-lost-my-voice.component';
+import {GhostComponent} from './body/ghost/ghost.component';
 
 const paths: Routes = [
   {path: '', redirectTo: '/view', pathMatch: 'full'},
@@ -37,7 +38,8 @@ const paths: Routes = [
   {path: 'unknown-and-untold', component: UnknownAndUntoldComponent},
   {path: 'new-hope', component: NewHopeComponent},
   {path: 'where-are-you', component: WhereAreYouComponent},
-  {path: 'i-ve-lost-my-voice', component: IVeLostMyVoiceComponent}
+  {path: 'i-ve-lost-my-voice', component: IVeLostMyVoiceComponent},
+  {path: 'ghost', component: GhostComponent}
 ];
 
 @NgModule({

@@ -39,6 +39,7 @@ import { NewHopeComponent } from './body/new-hope/new-hope.component';
 import { WhereAreYouComponent } from './body/where-are-you/where-are-you.component';
 import {DisqusModule} from 'ngx-disqus';
 import { IVeLostMyVoiceComponent } from './body/i-ve-lost-my-voice/i-ve-lost-my-voice.component';
+import { GhostComponent } from './body/ghost/ghost.component';
 
 @NgModule({
   declarations: [
@@ -65,7 +66,8 @@ import { IVeLostMyVoiceComponent } from './body/i-ve-lost-my-voice/i-ve-lost-my-
     UnknownAndUntoldComponent,
     NewHopeComponent,
     WhereAreYouComponent,
-    IVeLostMyVoiceComponent
+    IVeLostMyVoiceComponent,
+    GhostComponent
   ],
   imports: [
     BrowserAnimationsModule,
