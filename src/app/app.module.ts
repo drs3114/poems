@@ -40,6 +40,7 @@ import { WhereAreYouComponent } from './body/where-are-you/where-are-you.compone
 import {DisqusModule} from 'ngx-disqus';
 import { IVeLostMyVoiceComponent } from './body/i-ve-lost-my-voice/i-ve-lost-my-voice.component';
 import { GhostComponent } from './body/ghost/ghost.component';
+import { AForgottenGraveComponent } from './body/a-forgotten-grave/a-forgotten-grave.component';
 
 @NgModule({
   declarations: [
@@ -67,7 +68,8 @@ import { GhostComponent } from './body/ghost/ghost.component';
     NewHopeComponent,
     WhereAreYouComponent,
     IVeLostMyVoiceComponent,
-    GhostComponent
+    GhostComponent,
+    AForgottenGraveComponent
   ],
   imports: [
     BrowserAnimationsModule,
